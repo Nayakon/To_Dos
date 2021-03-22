@@ -3,22 +3,22 @@
 
 function item(){
   
-    let userInput = document.getElementById('userInput').value;
-    let text = document.createTextNode(userInput);
-    let list = document.createElement('li')
+    var userInput = document.getElementById('userInput').value;
+    var text = document.createTextNode(userInput);
+    var list = document.createElement('li')
 
     
 
-
+   
     
 
-    let closeBtn = document.createElement('button')
+    var closeBtn = document.createElement('button')
     // closeBtn stylle
     closeBtn.className = "btn-close btn btn-warning";
     
     
     if(userInput === ''){
-        alert('please enter ')
+        alert('Please enter your country of origin!')
     }
     else{
         list.append(closeBtn)
@@ -31,5 +31,6 @@ function item(){
         
         list.remove()
     })
-
+   
 }
+   

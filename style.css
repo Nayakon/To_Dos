@@ -17,17 +17,17 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size:30px;
     margin-top: 0;
-     background-color:beige; 
-    box-shadow: brown;
+     background-color:rgb(248, 101, 101); 
+    /* box-shadow: rgb(231, 216, 216); */
     min-height: 150px;
     font-style: italic;
 }
 h1:hover{
-     background-color: rgb(104, 88, 88);
+     background-color: rgb(240, 124, 124);
 }
 button{
     padding: 7px 15px;
-    background-color: rgb(226, 215, 236);
+    background-color: black;
     border:none;
     color:white;
     border-radius: 4px;
@@ -38,6 +38,7 @@ button:hover{
     background-color: yellowgreen;
 }
 ul{
+    position: relative;
     text-align: left;
     margin: 0;
     background-color: white;
@@ -45,21 +46,25 @@ ul{
 
 }
 ul:hover{
-    background-color: yellowgreen;
-    padding-left: 2cm;
+    margin: 0px;
+    /* background-color: rgb(221, 191, 191); */
+    padding-left: 4cm;
     padding-right: 4cm;
+    
 }
 li{
     list-style: none;
 	padding: 10px 20px;
-	 color: #ffffff; 
-     border-radius: 5px;
-	margin-bottom: 5px; 
-	background: #cd4e9c;
+	 color: black; 
+      border-radius: 5px; 
+	 margin-bottom: 5px;   /* if  i will like space between the list elements*/
+	background:
+    rgb(230, 212, 212)
 	
 }
 li button{
     float: right;
+    text-decoration: line-through
 	
 } 
 
@@ -80,13 +85,10 @@ li button{
 } 
 li:hover{
     color:black;
-}
- ul{
-    text-decoration: none;
-    }
-    ul input[type=checkbox]:checked ~ del {
-    text-decoration: line-through;
-    }
 
+
+}
+
+    
 
    
